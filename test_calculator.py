@@ -60,7 +60,7 @@ class TestSubtraction:
 
 
 class TestMultiply:
-    
+
     def test_multiply_0(self):
         assert 0 == calculator.multiply(0, 0)
         assert 0 == calculator.multiply(0, 1)
