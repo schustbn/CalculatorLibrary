@@ -57,3 +57,10 @@ class TestSubtraction:
 
     def test_substraction_hughe(self):
         assert 999999999999 == calculator.subtract(1000000000000, 1)
+
+
+class TestMultiply:
+    
+    def test_multiply_0(self):
+        assert 0 == calculator.multiply(0, 0)
+        assert 0 == calculator.multiply(0, 1)
