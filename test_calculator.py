@@ -89,6 +89,6 @@ class TestSquare:
 
     def test_square_0(self):
         """Test."""
-        assert 0 == calculator.square(1, 0)
+        assert -1 == calculator.square(1, 0)
         assert 1 == calculator.square(1, 1)
         assert 9 == calculator.square(3, 2)
